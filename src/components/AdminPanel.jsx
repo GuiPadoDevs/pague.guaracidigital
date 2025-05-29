@@ -24,8 +24,7 @@ export default function AdminPanel() {
             // });
 
             // -> URL Producao
-            // const { data } = await axios.post(`https://payment-link-server-v2.vercel.app/api/generate-link`, {
-            const { data } = await axios.post(`http://172.17.1.11:3001/api/generate-link`, {
+            const { data } = await axios.post(`https://pague-guaracidigital-api.vercel.app/api/generate-link`, {
                 redirectUrl
             });
 
